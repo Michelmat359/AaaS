@@ -1,0 +1,15 @@
+connexion[swagger-ui]
+flask-cors
+flask_pymongo
+#gunicorn 
+#numpy
+#pandas
+#paho-mqtt
+#boto3
+#s3fs
+
+#paho-mqtt
+pymongo
+#numpy
+redis
+requests

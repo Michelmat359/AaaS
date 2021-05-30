@@ -1,0 +1,37 @@
+---
+openapi: 3.0.0
+info:
+  title: API
+  description: Test
+  version: 0.0.1
+servers:
+  - url: http://localhost:8082/api
+
+# Paths supported by the server application
+paths:
+
+  /hola:
+    get:
+      operationId: archivo dentro src
+      tags:
+        - Saludoi
+      description: Devuelve saludo
+      responses:
+        200:
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InputOuput'
+
+
+components:
+  schemas:
+    Saludo:
+      required:
+      - id
+      type: object
+      properties:
+        id:
+          type: string
+          description: Saludo
